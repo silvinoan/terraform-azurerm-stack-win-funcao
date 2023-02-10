@@ -1,0 +1,8 @@
+# https://pre-commit.com/
+
+repos:
+  - repo: https://github.com/terraform-docs/terraform-docs
+    rev: "v0.16.0"
+    hooks:
+      - id: terraform-docs-go
+        args: ["."]
